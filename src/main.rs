@@ -13,7 +13,7 @@ fn fizzbuzz(n: i64) -> String {
         return String::from("Buzz");
     };
     if n % 3 == 0 {
-        return String::from("Buzz");
+        return String::from("Fizz");
     };
     n.to_string()
 }
